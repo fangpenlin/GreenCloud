@@ -7,9 +7,8 @@ Created on 2010/9/5
 import types
 import logging
 
-import wsgi_xmlrpc
 import gevent
-from gevent import queue, pywsgi
+from gevent import queue
 from gevent.server import StreamServer
 
 import pipeline
